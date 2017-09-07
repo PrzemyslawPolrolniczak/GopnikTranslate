@@ -1,0 +1,33 @@
+input {
+  width: 30%;
+  margin: 0 auto;
+}
+
+span {
+  color: red;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+audio {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.volume-controll {
+  position: absolute;
+  top:5px;
+  left: 50%;
+  transform: translate(-50%,0);
+  font-size: 26px;
+  color: white;
+  transition: all 0.5s;
+}
+
+.volume-controll:hover {
+  transition: all 0.5;
+  color: red;
+}
